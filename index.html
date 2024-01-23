@@ -42,11 +42,12 @@
     </style>
 </head>
 
-<body class="font-manrope">
-    <!-- Header Section Start -->
-    <header class="container mx-auto">
+<body class="font-manrope p-0 m-0">
+    <!-- Need More Edit -->
+    <!-- Header Section Start  -->
+    <header class="container mx-auto mt-4 lg:mt-12">
         <!-- Navbar Section -->
-        <div class="navbar bg-base-100">
+        <div class="navbar mx-auto mx-5 lg:mx-18 bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -86,8 +87,10 @@
                     </svg>
                 </button>
                 <!-- Get Ticket -->
-                <button class="btn btn-primary text-white bg-hockey-red border-hockey-red hover:bg-white hover:border-hockey-red hover:text-hockey-red">Get Ticket</button>
-            </button>
+                <button
+                    class="btn btn-primary text-white bg-hockey-red border-hockey-red hover:bg-white hover:border-hockey-red hover:text-hockey-red">Get
+                    Ticket</button>
+                </button>
             </div>
         </div>
     </header>
@@ -95,6 +98,33 @@
 
     <!-- Main Section Start -->
     <main class="container mx-auto">
+        <!-- Carousel Section -->
+        <section class="mx-5 lg:mx-18 mt-12">
+            <div class="carousel">
+                <div id="slide1" class="carousel-item relative w-full justify-center lg:justify-start">
+                    <img src="images/banner1.png" class="w-full" />
+                    <div class="absolute flex lg:gap-6 gap-3 bottom-5 lg:left-8 lg:bottom-8">
+                        <a href="#slide4" class="btn btn-circle bg-hockey-black text-white border-none">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-hockey-black text-white border-none">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full justify-center lg:justify-start">
+                    <img src="images/pprogram.png" class="w-full" />
+                    <div class="absolute flex lg:gap-6 gap-3 bottom-5 lg:left-8 lg:bottom-8">
+                        <a href="#slide1" class="btn btn-circle bg-hockey-black text-white border-none">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-hockey-black text-white border-none">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full justify-center lg:justify-start">
+                    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                    <div class="absolute flex lg:gap-6 gap-3 bottom-5 lg:left-8 lg:bottom-8">
+                        <a href="#slide2" class="btn btn-circle bg-hockey-black text-white border-none">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-hockey-black text-white border-none">❯</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
     </main>
     <!-- Main Section End -->
