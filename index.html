@@ -47,7 +47,7 @@
     <!-- Header Section Start  -->
     <header class="container mx-auto mt-4 lg:mt-12">
         <!-- Navbar Section -->
-        <div class="navbar mx-auto mx-5 lg:mx-18 bg-base-100">
+        <div class="navbar mx-auto lg:mx-18 bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -58,7 +58,7 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-[#424247] shadow bg-base-100 rounded-box w-52">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
@@ -69,7 +69,7 @@
                 <h3 class="text-hockey-black font-extrabold text-4xl">Hockey<span class="text-hockey-red">’</span>s</h3>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
+                <ul class="menu menu-horizontal px-1 text-[#424247]">
                     <li><a class="text-hockey-red">Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Pages</a></li>
@@ -80,8 +80,8 @@
             <div class="navbar-end">
                 <!-- Search Button -->
                 <button class="btn btn-ghost btn-circle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#89898B]" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
@@ -99,66 +99,134 @@
     <!-- Main Section Start -->
     <main class="container mx-auto">
         <!-- Carousel Section -->
-        <section class="mx-5 lg:mx-18 mt-12">
+        <section class="mx-5 lg:mx-18 mt-12 mb-24 relative">
             <div class="carousel">
                 <div id="slide1" class="carousel-item relative w-full justify-center lg:justify-start">
-                    <img src="images/banner1.png" class="w-full" />
+                    <img src="images/banner1.png" class="w-full rounded-2xl" />
                     <div class="absolute flex lg:gap-6 gap-3 bottom-5 lg:left-8 lg:bottom-8">
-                        <a href="#slide4" class="btn btn-circle bg-hockey-black text-white border-none">❮</a>
-                        <a href="#slide2" class="btn btn-circle bg-hockey-black text-white border-none">❯</a>
+                        <a href="#slide4"
+                            class="btn btn-circle bg-hockey-black hover:bg-white text-white hover:text-hockey-black border-2 border-hockey-black">❮</a>
+                        <a href="#slide2"
+                            class="btn btn-circle bg-hockey-black hover:bg-white text-white hover:text-hockey-black border-2 border-hockey-black">❯</a>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full justify-center lg:justify-start">
-                    <img src="images/pprogram.png" class="w-full" />
+                    <img src="images/pprogram.png" class="w-full rounded-2xl" />
                     <div class="absolute flex lg:gap-6 gap-3 bottom-5 lg:left-8 lg:bottom-8">
-                        <a href="#slide1" class="btn btn-circle bg-hockey-black text-white border-none">❮</a>
-                        <a href="#slide3" class="btn btn-circle bg-hockey-black text-white border-none">❯</a>
+                        <a href="#slide1"
+                            class="btn btn-circle bg-hockey-black hover:bg-white text-white hover:text-hockey-black border-2 border-hockey-black">❮</a>
+                        <a href="#slide3"
+                            class="btn btn-circle bg-hockey-black hover:bg-white text-white hover:text-hockey-black border-2 border-hockey-black">❯</a>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full justify-center lg:justify-start">
-                    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                    <img src="images/banner3.jpg" class="w-full rounded-2xl" />
                     <div class="absolute flex lg:gap-6 gap-3 bottom-5 lg:left-8 lg:bottom-8">
-                        <a href="#slide2" class="btn btn-circle bg-hockey-black text-white border-none">❮</a>
-                        <a href="#slide1" class="btn btn-circle bg-hockey-black text-white border-none">❯</a>
+                        <a href="#slide2"
+                            class="btn btn-circle bg-hockey-black hover:bg-white text-white hover:text-hockey-black border-2 border-hockey-black">❮</a>
+                        <a href="#slide1"
+                            class="btn btn-circle bg-hockey-black hover:bg-white text-white hover:text-hockey-black border-2 border-hockey-black">❯</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Text Box -->
+            <div
+                class="relative lg:absolute lg:right-8 lg:bottom-8 bg-hockey-black text-white p-4 lg:p-8 rounded-xl lg:rounded-2xl lg:w-[560px] lg:h-[160px]">
+                <h3 class="text-lg lg:text-2xl font-extrabold">
+                    Meet all the heroes from the field
+                </h3>
+                <p class="font-medium mt-4 text-[#FFFFFF99]">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin.
+                </p>
+            </div>
+        </section>
+        <!-- Professional Hockeys Club -->
+        <section class="mx-5 lg:mx-18 mt-12 mb-24">
+            <div class="text-center">
+                <h3 class="text-hockey-black font-extrabold text-xl lg:text-4xl mb-4 lg:mb-6">Professional Hockey's Club
+                </h3>
+                <p class="p-6 lg:p-0 mb-6 lg:mb-8">We have sold so many items to hockey players and professionals of
+                    different age groups. Below is the stats for those:
+                </p>
+                <div class="flex lg:justify-between flex-col lg:flex-row items-center">
+                    <div class="mb-6">
+                        <div class="radial-progress text-hockey-red" style="--value:87; --size:7.5rem"
+                            role="progressbar">
+                            <span class="text-hockey-black font-extrabold text-2xl">87%</span>
+                        </div>
+                        <h3 class="text-hockey-black font-bold text-xl">Prayer Facility</h3>
+                        <p class="text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="mb-6">
+                        <div class="radial-progress text-[#49D293]" style="--value:95; --size:7.5rem"
+                            role="progressbar">
+                            <span class="text-hockey-black font-extrabold text-2xl">95%</span>
+                        </div>
+                        <h3 class="text-hockey-black font-bold text-xl">Experienced Coach</h3>
+                        <p class="text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="mb-6">
+                        <div class="radial-progress text-[#FFB546]" style="--value:90; --size:7.5rem"
+                            role="progressbar">
+                            <span class="text-hockey-black font-extrabold text-2xl">90%</span>
+                        </div>
+                        <h3 class="text-hockey-black font-bold text-xl">Senior Player</h3>
+                        <p class="text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="mb-6">
+                        <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:7.5rem"
+                            role="progressbar">
+                            <span class="text-hockey-black font-extrabold text-2xl">80%</span>
+                        </div>
+                        <h3 class="text-hockey-black font-bold text-xl">Training Ground</h3>
+                        <p class="text-[#13131899] text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Program Sections -->
+        <section class="mb-24">
+            <div class="text-center mb-20">
+                <h3 class="text-hockey-black font-extrabold text-4xl mb-6">Program Sections</h3>
+                <p class="w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <!-- Junior Program -->
+            <div class="grid grid-cols-2 gap-6">
+                <div class="bg-no-repeat bg-cover w-full h-[340px] rounded-2xl"
+                    style="background-image: url('./images/jprogram.png')">
+                    <div class="bg-[#13131880] bg-cover w-full h-[340px] rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
+                        <h3 class="font-extrabold text-2xl">Junior Program</h3>
+                        <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <button class="btn bg-hockey-red border-2 border-hockey-red hover:border-hockey-red text-white hover:text-hockey-red rounded-lg w-[180px] h-12">Register Now</button>
+                    </div>
+                </div>
+                <!-- Teenager Program -->
+                <div class="bg-no-repeat bg-cover w-full h-[340px] rounded-2xl"
+                    style="background-image: url('./images/tprogram.png')">
+                    <div class="bg-[#13131880] bg-cover w-full h-[340px] rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
+                        <h3>Teenager Program</h3>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <button class="btn bg-hockey-red border-2 border-hockey-red hover:border-hockey-red text-white hover:text-hockey-red rounded-lg w-[180px] h-12">Register Now</button>
+                    </div>
+                </div>
+                <!-- Professional Program -->
+                <div class="bg-no-repeat bg-cover w-full h-[450px] rounded-2xl col-span-2"
+                    style="background-image: url('./images/pprogram.png')">
+                    <div class="bg-[#13131880] bg-cover w-full h-[450px] rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
+                        <h3>Professional Program</h3>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <button class="btn bg-hockey-red border-2 border-hockey-red hover:border-hockey-red text-white hover:text-hockey-red rounded-lg w-[180px] h-12">Register Now</button>
                     </div>
                 </div>
 
             </div>
-        </section>
-        <!-- Professional Hockeys Club -->
-        <section class="mx-5 lg:mx-18 mt-12">
-            <di class="text-center">
-                <h3 class="text-hockey-black font-extrabold text-4xl">Professional Hockey's Club</h3>
-                <p>We have sold so many items to hockey players and professionals of different age groups. Below is the stats for those:
-                </p>
-                </div>
-                <div class="flex lg:justify-between flex-col lg:flex-row items-center">
-                    <div>
-                        <div class="radial-progress text-hockey-red" style="--value:87; --size:7.5rem" role="progressbar">
-                            <span class="text-hockey-black font-extrabold text-2xl">87%</span></div>
-                        <h3 class="text-hockey-black font-bold text-xl">Prayer Facility</h3>
-                        <p class="text-[#13131899]">amar sonar bangla</p>
-                    </div>
-                    <div>
-                        <div class="radial-progress text-[#49D293]" style="--value:95; --size:7.5rem" role="progressbar">
-                            <span class="text-hockey-black font-extrabold text-2xl">95%</span></div>
-                        <h3 class="text-hockey-black font-bold text-xl">Experienced Coach</h3>
-                        <p class="text-[#13131899]"></p>
-                    </div>
-                    <div>
-                        <div class="radial-progress text-[#FFB546]" style="--value:90; --size:7.5rem" role="progressbar">
-                            <span class="text-hockey-black font-extrabold text-2xl">90%</span></div>
-                        <h3 class="text-hockey-black font-bold text-xl">Senior Player</h3>
-                        <p class="text-[#13131899]"></p>
-                    </div>
-                    <div>
-                        <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:7.5rem" role="progressbar">
-                            <span class="text-hockey-black font-extrabold text-2xl">80%</span></div>
-                        <h3 class="text-hockey-black font-bold text-xl">Training Ground</h3>
-                        <p class="text-[#13131899]"></p>
-                    </div>
-                </div>
-
         </section>
     </main>
     <!-- Main Section End -->
