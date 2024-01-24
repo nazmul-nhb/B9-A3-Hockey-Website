@@ -434,7 +434,7 @@
             <hr class="border-[#13131833] border-dashed border-[1px]">
 
             <!-- Contact and Forms -->
-            <div class="grid grid-cols-9 gap-6">
+            <div class="grid grid-cols-9 gap-6 mt-12">
                 <!-- Contacts -->
                 <div class="col-span-4 flex flex-col gap-6 rounded-2xl border-[#1313181A] border-[1px] p-12">
                     <!-- Phone -->
@@ -448,19 +448,38 @@
                     <div class="bg-[#FDDD5F1A] p-8 rounded-2xl cursor-pointer hover:opacity-75">
                         <img src="images/mail.png" alt="Mail">
                         <h3 class="text-[#13131866]">Email</h3>
-                        <a class="text-lg text-hockey-black font-extrabold" href="mailto:hockeys@support.com">hockeys@support.com</a>
+                        <a class="text-lg text-hockey-black font-extrabold"
+                            href="mailto:hockeys@support.com">hockeys@support.com</a>
                     </div>
                     <!-- Location -->
                     <div class="bg-[#629CF31A] p-8 rounded-2xl cursor-pointer hover:opacity-75">
                         <img src="images/location.png" alt="Location">
                         <h3 class="text-[#13131866]">Location</h3>
-                        <a class="text-lg text-hockey-black font-extrabold" href="https://maps.app.goo.gl/zy18hHYLi7gQMBWDA">152/1 Mohakhali Wireless Gate</a>
+                        <a class="text-lg text-hockey-black font-extrabold"
+                            href="https://maps.app.goo.gl/zy18hHYLi7gQMBWDA">152/1 Mohakhali Wireless Gate</a>
                     </div>
                 </div>
 
                 <!-- Forms -->
                 <div class="col-span-5">
-
+                    <form class="grid grid-cols-2 gap-6">
+                        <label for="name"><span class="block text-xl font-bold text-hockey-black mb-4">Your Name</span>
+                            <input type="text" name="name" id="name" placeholder="Enter your full name" class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
+                        </label>
+                        <label for="email"><span class="block text-xl font-bold text-hockey-black mb-4">Your Email</span>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
+                        </label>
+                        <label for="subject"><span class="block text-xl font-bold text-hockey-black mb-4">Subject</span>
+                            <input type="text" name="subject" id="subject" placeholder="Enter your subject" class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
+                        </label>
+                        <label for="phone"><span class="block text-xl font-bold text-hockey-black mb-4">Phone Number</span>
+                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
+                        </label>
+                        <label for="message" class="col-span-2 w-[672px] h-[370px]"><span class="block text-xl font-bold text-hockey-black mb-4">Message</span>
+                            <textarea name="message" id="message" cols="63" rows="10" placeholder="Write your message"  class="bg-[#13131808] p-5 rounded-xl"></textarea>
+                        </label>
+                        <button class="col-span-2 btn">Send Message</button>
+                    </form>
                 </div>
             </div>
 
