@@ -49,7 +49,7 @@
     <header>
         <!-- Navbar Section -->
         <nav class="container mx-auto">
-            <div class="navbar justify-between mx-5 lg:mx-20 mt-4 lg:mt-12 bg-base-100">
+            <div class="navbar w-auto justify-between mx-5 lg:mx-20 mt-4 lg:mt-12 bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -80,7 +80,7 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end flex justify-between gap-6">
+                <div class="navbar-end flex justify-end gap-6">
                     <!-- Search Button -->
                     <button class="btn btn-ghost btn-circle lg:block hidden">
                         <i class="fa-solid fa-magnifying-glass text-2xl text-[#89898B]"></i>
@@ -99,8 +99,8 @@
     <!-- Main Section Start -->
     <main class="container mx-auto">
         <!-- Carousel Section -->
-        <section class="mx-5 lg:mx-20 mt-12 mb-24 relative">
-            <div class="carousel">
+        <section class="mx-5 lg:mx-20 mt-6 lg:mt-12 mb-10 lg:mb-24 relative">
+            <div class="carousel mb-4">
                 <div id="slide1" class="carousel-item relative w-full justify-center lg:justify-start">
                     <img src="images/banner1.png" class="w-full rounded-2xl" />
                     <div class="absolute flex lg:gap-6 gap-3 bottom-5 lg:left-8 lg:bottom-8">
@@ -141,9 +141,9 @@
                 </p>
             </div>
         </section>
-            <hr class="border-[#13131833] border-dashed border-[1px] mx-20">
+        <hr class="border-[#13131833] border-dashed border-[1px] mx-20">
         <!-- Professional Hockey's Club -->
-        <section class="mx-5 lg:mx-20 mt-12 mb-24">
+        <section class="mx-5 lg:mx-20 mt-6 lg:mt-12 mb-24">
             <div class="text-center">
                 <h3 class="text-hockey-black font-extrabold text-xl lg:text-4xl mb-4 lg:mb-6">Professional Hockey's Club
                 </h3>
@@ -193,18 +193,18 @@
         <section class="mx-5 lg:mx-20 mt-12 mb-24">
             <div class="text-center mb-20">
                 <h3 class="text-hockey-black font-extrabold text-4xl mb-6">Program Sections</h3>
-                <p class="w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
+                <p class="w-11/12 lg:w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <hr class="border-[#13131833] border-dashed border-[1px]">
-            <!-- Junior Program -->
-            <div class="grid grid-cols-2 gap-6 mt-12">
-                <div class="bg-no-repeat bg-cover w-full h-[340px] rounded-2xl"
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
+                <!-- Junior Program -->
+                <div class="bg-no-repeat bg-cover w-full h-auto rounded-2xl"
                     style="background-image: url('./images/jprogram.png')">
                     <div
-                        class="bg-[#13131880] bg-cover w-full h-[340px] rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
+                        class="bg-[#13131880] bg-cover w-full h-auto rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
                         <h3 class="font-extrabold text-2xl">Junior Program</h3>
-                        <p class="font-medium p-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        <p class="font-medium py-4 pl-0 pr-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.</p>
                         <button
@@ -213,12 +213,12 @@
                     </div>
                 </div>
                 <!-- Teenager Program -->
-                <div class="bg-no-repeat bg-cover w-full h-[340px] rounded-2xl"
+                <div class="bg-no-repeat bg-cover w-full h-auto rounded-2xl"
                     style="background-image: url('./images/tprogram.png')">
                     <div
-                        class="bg-[#13131880] bg-cover w-full h-[340px] rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
+                        class="bg-[#13131880] bg-cover w-full h-auto rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
                         <h3 class="font-extrabold text-2xl">Teenager Program</h3>
-                        <p class="font-medium p-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        <p class="font-medium py-4 pl-0 pr-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.</p>
                         <button
@@ -227,12 +227,12 @@
                     </div>
                 </div>
                 <!-- Professional Program -->
-                <div class="bg-no-repeat bg-cover w-full h-[450px] rounded-2xl col-span-2"
+                <div class="bg-no-repeat bg-cover w-full h-auto rounded-2xl col-span-1 lg:col-span-2"
                     style="background-image: url('./images/pprogram.png')">
                     <div
-                        class="bg-[#13131880] bg-cover w-full h-[450px] rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
+                        class="bg-[#13131880] bg-cover w-full h-auto rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
                         <h3 class="font-extrabold text-2xl">Professional Program</h3>
-                        <p class="font-medium w-[520px] p-4">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                        <p class="font-medium w-[520px] py-4 pl-0 pr-4">Dolor sit amet consectetur. Ut urna diam quis sagittis.
                             Elit elit
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.</p>
@@ -249,14 +249,15 @@
         <section class="mx-5 lg:mx-20 mt-12 mb-24">
             <div class="text-center mb-20">
                 <h3 class="text-hockey-black font-extrabold text-4xl mb-6">Our New Products</h3>
-                <p class="w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
+                <p class="w-full lg:w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <hr class="border-[#13131833] border-dashed border-[1px]">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 my-12">
                 <div
-                    class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
-                    <div><img src="images/jacket.png" alt="Jacket"></div>
+                    class="cursor-pointer hover:opacity-80 flex flex-col lg:flex-row justify-between gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div class="lg:inline-block hidden"><img src="images/jacket.png" alt="Jacket"></div>
+                    <div class="inline-block lg:hidden "><img src="images/jacket-r.jpg" alt="Jacket" class="rounded-xl"></div>
                     <div class="flex flex-col justify-around gap-2">
                         <div class="flex justify-start items-center gap-3 text-[#13131899]">
                             <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
@@ -272,8 +273,9 @@
                     </div>
                 </div>
                 <div
-                    class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
-                    <div><img src="images/ball.png" alt="Ball"></div>
+                    class="cursor-pointer hover:opacity-80 flex flex-col lg:flex-row justify-between gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div class="lg:inline-block hidden"><img src="images/ball.png" alt="Ball"></div>
+                    <div class="inline-block lg:hidden"><img src="images/ball-r.jpg" alt="Ball" class="rounded-xl"></div>
                     <div class="flex flex-col justify-around gap-2">
                         <div class="flex justify-start items-center gap-3 text-[#13131899]">
                             <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
@@ -289,8 +291,9 @@
                     </div>
                 </div>
                 <div
-                    class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
-                    <div><img src="images/cap.png" alt="Cap"></div>
+                    class="cursor-pointer hover:opacity-80 flex flex-col lg:flex-row justify-between gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div class="lg:inline-block hidden"><img src="images/cap.png" alt="Cap"></div>
+                    <div class="inline-block lg:hidden"><img src="images/cap-r.jpg" alt="Cap" class="rounded-xl"></div>
                     <div class="flex flex-col justify-around gap-2">
                         <div class="flex justify-start items-center gap-3 text-[#13131899]">
                             <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
@@ -306,8 +309,9 @@
                     </div>
                 </div>
                 <div
-                    class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
-                    <div><img src="images/jersey.png" alt="Jersey"></div>
+                    class="cursor-pointer hover:opacity-80 flex flex-col lg:flex-row justify-between gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div class="lg:inline-block hidden"><img src="images/jersey.png" alt="Jersey"></div>
+                    <div class="inline-block lg:hidden"><img src="images/jersey-r.jpg" alt="Jersey" class="rounded-xl"></div>
                     <div class="flex flex-col justify-around gap-2">
                         <div class="flex justify-start items-center gap-3 text-[#13131899]">
                             <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
@@ -323,8 +327,9 @@
                     </div>
                 </div>
                 <div
-                    class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
-                    <div><img src="images/helm.png" alt="Helmet"></div>
+                    class="cursor-pointer hover:opacity-80 flex flex-col lg:flex-row justify-between gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div class="lg:inline-block hidden"><img src="images/helm.png" alt="Helmet"></div>
+                    <div class="inline-block lg:hidden"><img src="images/helm-r.jpg" alt="Helmet" class="rounded-xl"></div>
                     <div class="flex flex-col justify-around gap-2">
                         <div class="flex justify-start items-center gap-3 text-[#13131899]">
                             <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
@@ -340,8 +345,9 @@
                     </div>
                 </div>
                 <div
-                    class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
-                    <div><img src="images/football.png" alt="Football"></div>
+                    class="cursor-pointer hover:opacity-80 flex flex-col lg:flex-row justify-between gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div class="lg:inline-block hidden"><img src="images/football.png" alt="Football"></div>
+                    <div class="inline-block lg:hidden"><img src="images/football-r.jpg" alt="Football" class="rounded-xl"></div>
                     <div class="flex flex-col justify-around gap-2">
                         <div class="flex justify-start items-center gap-3 text-[#13131899]">
                             <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
@@ -363,11 +369,11 @@
         <section class="mx-5 lg:mx-20 mt-12 mb-24">
             <div class="text-center mb-20">
                 <h3 class="text-hockey-black font-extrabold text-4xl mb-6">Clients Question</h3>
-                <p class="w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
+                <p class="w-11/12 lg:w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <hr class="border-[#13131833] border-dashed border-[1px]">
-            <div class="flex flex-row gap-10 rounded-2xl border-[#1313181A] border-[1px] p-8 mt-12 mb-24">
+            <div class="flex flex-col lg:flex-row gap-10 rounded-2xl border-[#1313181A] border-[1px] p-8 mt-12 mb-24">
                 <div>
                     <img src="images/faq.png" alt="FAQ">
                 </div>
@@ -429,13 +435,14 @@
         <section class="mx-5 lg:mx-20 mt-12 mb-24">
             <div class="text-center mb-20">
                 <h3 class="text-hockey-black font-extrabold text-4xl mb-6">Get In Touch</h3>
-                <p class="w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
+                <p class="w-11/12 lg:w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim
+                    adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <hr class="border-[#13131833] border-dashed border-[1px]">
 
             <!-- Contact and Forms -->
-            <div class="grid grid-cols-9 gap-6 mt-12 mb-20">
+            <div class="grid grid-cols-1 lg:grid-cols-9 gap-6 mt-12 mb-20">
                 <!-- Contacts -->
                 <div class="col-span-4 flex flex-col gap-6 rounded-2xl border-[#1313181A] border-[1px] p-12">
                     <!-- Phone -->
@@ -462,24 +469,37 @@
                 </div>
 
                 <!-- Forms -->
-                <div class="col-span-5">
-                    <form class="grid grid-cols-2 gap-6">
+                <div class="col-span-1 lg:col-span-5">
+                    <form class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <label for="name"><span class="block text-xl font-bold text-hockey-black mb-4">Your Name</span>
-                            <input type="text" name="name" id="name" placeholder="Enter your full name" class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
+                            <input type="text" name="name" id="name" placeholder="Enter your full name"
+                                class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
                         </label>
-                        <label for="email"><span class="block text-xl font-bold text-hockey-black mb-4">Your Email</span>
-                            <input type="email" name="email" id="email" placeholder="Enter your email" class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
+                        <label for="email"><span class="block text-xl font-bold text-hockey-black mb-4">Your
+                                Email</span>
+                            <input type="email" name="email" id="email" placeholder="Enter your email"
+                                class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
                         </label>
                         <label for="subject"><span class="block text-xl font-bold text-hockey-black mb-4">Subject</span>
-                            <input type="text" name="subject" id="subject" placeholder="Enter your subject" class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
+                            <input type="text" name="subject" id="subject" placeholder="Enter your subject"
+                                class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
                         </label>
-                        <label for="phone"><span class="block text-xl font-bold text-hockey-black mb-4">Phone Number</span>
-                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
+                        <label for="phone"><span class="block text-xl font-bold text-hockey-black mb-4">Phone
+                                Number</span>
+                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number"
+                                class="bg-[#13131808] w-full h-16 p-5 rounded-xl">
                         </label>
-                        <label for="message" class="col-span-2 w-[672px] h-[370px]"><span class="block text-xl font-bold text-hockey-black mb-4">Message</span>
-                            <textarea name="message" id="message" cols="63" rows="10" placeholder="Write your message"  class="bg-[#13131808] p-5 rounded-xl"></textarea>
-                        </label>
-                        <button class="col-span-2 btn">Send Message</button>
+                        <div class="col-span-1 lg:col-span-2">
+                            <label for="message"><span
+                                    class="block text-xl font-bold text-hockey-black mb-4">Message</span>
+                                <textarea name="message" id="message" cols="63" rows="10"
+                                    placeholder="Write your message"
+                                    class="bg-[#13131808] p-5 rounded-xl w-full h-[200px] lg:h-[370px] box-border"></textarea>
+                            </label>
+                        </div>
+                        <button
+                            class="col-span-1 lg:col-span-2 btn bg-hockey-red border-2 border-hockey-red hover:border-hockey-red text-white hover:text-hockey-red rounded-lg w-full h-12">Send
+                            Message</button>
                     </form>
                 </div>
             </div>
@@ -488,10 +508,12 @@
             <div class="text-center mt-9">
                 <h3 class="text-hockey-black font-extrabold text-2xl mb-6">Social Media</h3>
                 <div class="flex flex-row gap-6 justify-center">
-                    <a href="https://x.com/" class="social"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://fb.com/" class="social"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/" class="social"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://github.com/nazmul-nhb/" class="social"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/" class="hover:text-hockey-red"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://fb.com/" class="hover:text-hockey-red"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" class="hover:text-hockey-red"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/nazmul-nhb/" class="hover:text-hockey-red"><i
+                            class="fa-brands fa-github"></i></a>
                 </div>
             </div>
         </section>
