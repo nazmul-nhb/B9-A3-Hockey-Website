@@ -43,64 +43,63 @@
     </style>
 </head>
 
-<body class="font-manrope p-0 m-0">
+<body class="font-manrope">
     <!-- Need More Edit -->
     <!-- Header Section Start  -->
-    <header class="container mx-auto mt-4 lg:mt-12">
+    <header>
         <!-- Navbar Section -->
-        <div class="navbar mx-auto lg:mx-18 bg-base-100">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
+        <nav class="container mx-auto">
+            <div class="navbar justify-between mx-5 lg:mx-20 mt-4 lg:mt-12 bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-[#424247] shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-[#424247] shadow bg-base-100 rounded-box w-52">
-                        <li><a>Home</a></li>
+                    <h3 class="text-hockey-black font-extrabold text-4xl">Hockey<span class="text-hockey-red">’</span>s
+                    </h3>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-[#424247]">
+                        <li><a class="text-hockey-red">Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
                         <li><a>Blog</a></li>
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <h3 class="text-hockey-black font-extrabold text-4xl">Hockey<span class="text-hockey-red">’</span>s</h3>
+                <div class="navbar-end flex justify-between gap-6">
+                    <!-- Search Button -->
+                    <button class="btn btn-ghost btn-circle lg:block hidden">
+                        <i class="fa-solid fa-magnifying-glass text-2xl text-[#89898B]"></i>
+                    </button>
+                    <!-- Get Ticket -->
+                    <button
+                        class="btn btn-primary w-36 h-14 text-xl font-bold text-white bg-hockey-red border-hockey-red hover:bg-white hover:border-hockey-red hover:text-hockey-red">
+                        Get Ticket
+                    </button>
+                </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 text-[#424247]">
-                    <li><a class="text-hockey-red">Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
-            </div>
-            <div class="navbar-end">
-                <!-- Search Button -->
-                <button class="btn btn-ghost btn-circle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#89898B]" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
-                </button>
-                <!-- Get Ticket -->
-                <button
-                    class="btn btn-primary text-white bg-hockey-red border-hockey-red hover:bg-white hover:border-hockey-red hover:text-hockey-red">Get
-                    Ticket</button>
-                </button>
-            </div>
-        </div>
+        </nav>
     </header>
     <!-- Header Section End -->
 
     <!-- Main Section Start -->
     <main class="container mx-auto">
         <!-- Carousel Section -->
-        <section class="mx-5 lg:mx-18 mt-12 mb-24 relative">
+        <section class="mx-5 lg:mx-20 mt-12 mb-24 relative">
             <div class="carousel">
                 <div id="slide1" class="carousel-item relative w-full justify-center lg:justify-start">
                     <img src="images/banner1.png" class="w-full rounded-2xl" />
@@ -141,10 +140,10 @@
                     sit nullam proin.
                 </p>
             </div>
+            <hr class="border-[#13131833] border-dashed border-[1px]">
         </section>
-        <hr class="border-[#13131833] border-dashed border-[1px]">
         <!-- Professional Hockeys Club -->
-        <section class="mx-5 lg:mx-18 mt-12 mb-24">
+        <section class="mx-5 lg:mx-20 mt-12 mb-24">
             <div class="text-center">
                 <h3 class="text-hockey-black font-extrabold text-xl lg:text-4xl mb-4 lg:mb-6">Professional Hockey's Club
                 </h3>
@@ -187,10 +186,10 @@
                     </div>
                 </div>
             </div>
+            <hr class="border-[#13131833] border-dashed border-[1px]">
         </section>
-        <hr class="border-[#13131833] border-dashed border-[1px]">
         <!-- Program Sections -->
-        <section class="mb-24 mt-12">
+        <section class="mx-5 lg:mx-20 mt-12 mb-24">
             <div class="text-center mb-20">
                 <h3 class="text-hockey-black font-extrabold text-4xl mb-6">Program Sections</h3>
                 <p class="w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
@@ -204,7 +203,7 @@
                     <div
                         class="bg-[#13131880] bg-cover w-full h-[340px] rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
                         <h3 class="font-extrabold text-2xl">Junior Program</h3>
-                        <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        <p class="font-medium p-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.</p>
                         <button
@@ -217,8 +216,8 @@
                     style="background-image: url('./images/tprogram.png')">
                     <div
                         class="bg-[#13131880] bg-cover w-full h-[340px] rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
-                        <h3>Teenager Program</h3>
-                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        <h3 class="font-extrabold text-2xl">Teenager Program</h3>
+                        <p class="font-medium p-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.</p>
                         <button
@@ -231,8 +230,9 @@
                     style="background-image: url('./images/pprogram.png')">
                     <div
                         class="bg-[#13131880] bg-cover w-full h-[450px] rounded-2xl text-white flex flex-col gap-6 items-start justify-end p-10">
-                        <h3>Professional Program</h3>
-                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        <h3 class="font-extrabold text-2xl">Professional Program</h3>
+                        <p class="font-medium w-[520px] p-4">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                            Elit elit
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.</p>
                         <button
@@ -242,25 +242,106 @@
                 </div>
 
             </div>
+            <hr class="border-[#13131833] border-dashed border-[1px]">
         </section>
-        <hr class="border-[#13131833] border-dashed border-[1px]">
         <!-- New Products Section -->
-        <section class="mb-24 mt-12">
+        <section class="mx-5 lg:mx-20 mt-12 mb-24">
             <div class="text-center mb-20">
                 <h3 class="text-hockey-black font-extrabold text-4xl mb-6">Our New Products</h3>
                 <p class="w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <hr class="border-[#13131833] border-dashed border-[1px]">
-            <div>
-                <div>
-
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 my-12">
+                <div class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div><img src="images/jacket.png" alt="Jacket"></div>
+                    <div class="flex flex-col justify-around gap-2">
+                        <div class="flex justify-start items-center gap-3 text-[#13131899]">
+                            <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
+                                class="fa-regular fa-eye"></i> <span>20</span> <i class="fa-regular fa-heart"></i> <span>200</span>
+                        </div>
+                        <h3 class="text-hockey-black text-xl font-extrabold">World Cup Jacket</h3>
+                        <p class="text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex justify-start items-center gap-3">
+                            <span class="text-hockey-red text-lg font-extrabold">Price - $22.00</span> <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div><img src="images/ball.png" alt="Ball"></div>
+                    <div class="flex flex-col justify-around gap-2">
+                        <div class="flex justify-start items-center gap-3 text-[#13131899]">
+                            <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
+                                class="fa-regular fa-eye"></i> <span>20</span> <i class="fa-regular fa-heart"></i> <span>200</span>
+                        </div>
+                        <h3 class="text-hockey-black text-xl font-extrabold">World Cup Flags Football</h3>
+                        <p class="text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex justify-start items-center gap-3">
+                            <span class="text-hockey-red text-lg font-extrabold">Price - $22.00</span> <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div><img src="images/cap.png" alt="Cap"></div>
+                    <div class="flex flex-col justify-around gap-2">
+                        <div class="flex justify-start items-center gap-3 text-[#13131899]">
+                            <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
+                                class="fa-regular fa-eye"></i> <span>20</span> <i class="fa-regular fa-heart"></i> <span>200</span>
+                        </div>
+                        <h3 class="text-hockey-black text-xl font-extrabold">Cap For Hockeys</h3>
+                        <p class="text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex justify-start items-center gap-3">
+                            <span class="text-hockey-red text-lg font-extrabold">Price - $22.00</span> <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div><img src="images/jersey.png" alt="Jersey"></div>
+                    <div class="flex flex-col justify-around gap-2">
+                        <div class="flex justify-start items-center gap-3 text-[#13131899]">
+                            <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
+                                class="fa-regular fa-eye"></i> <span>20</span> <i class="fa-regular fa-heart"></i> <span>200</span>
+                        </div>
+                        <h3 class="text-hockey-black text-xl font-extrabold">World Cup Jersey</h3>
+                        <p class="text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex justify-start items-center gap-3">
+                            <span class="text-hockey-red text-lg font-extrabold">Price - $22.00</span> <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div><img src="images/helm.png" alt="Helmet"></div>
+                    <div class="flex flex-col justify-around gap-2">
+                        <div class="flex justify-start items-center gap-3 text-[#13131899]">
+                            <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
+                                class="fa-regular fa-eye"></i> <span>20</span> <i class="fa-regular fa-heart"></i> <span>200</span>
+                        </div>
+                        <h3 class="text-hockey-black text-xl font-extrabold">World Cup Helmet</h3>
+                        <p class="text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex justify-start items-center gap-3">
+                            <span class="text-hockey-red text-lg font-extrabold">Price - $22.00</span> <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cursor-pointer hover:opacity-80 flex justify-between items-center gap-4 p-6 border-[#1313181a] border-[1px] rounded-2xl">
+                    <div><img src="images/football.png" alt="Football"></div>
+                    <div class="flex flex-col justify-around gap-2">
+                        <div class="flex justify-start items-center gap-3 text-[#13131899]">
+                            <i class="fa-solid fa-star text-[#F99808]"></i> <span>5.0</span> <i
+                                class="fa-regular fa-eye"></i> <span>20</span> <i class="fa-regular fa-heart"></i> <span>200</span>
+                        </div>
+                        <h3 class="text-hockey-black text-xl font-extrabold">World Cup Football</h3>
+                        <p class="text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex justify-start items-center gap-3">
+                            <span class="text-hockey-red text-lg font-extrabold">Price - $22.00</span> <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <hr class="border-[#13131833] border-dashed border-[1px]">
         </section>
         <!-- Clients Questions Accordion -->
-        <hr class="border-[#13131833] border-dashed border-[1px]">
-        <section class="mb-24 mt-12">
+        <section class="mx-5 lg:mx-20 mt-12 mb-24">
             <div class="text-center mb-20">
                 <h3 class="text-hockey-black font-extrabold text-4xl mb-6">Clients Question</h3>
                 <p class="w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
@@ -323,10 +404,10 @@
                     </div>
                 </div>
             </div>
+            <hr class="border-[#13131833] border-dashed border-[1px]">
         </section>
-        <hr class="border-[#13131833] border-dashed border-[1px]">
         <!-- Get In Touch Section -->
-        <section class="mb-24 mt-12">
+        <section class="mx-5 lg:mx-20 mt-12 mb-24">
             <div class="text-center mb-20">
                 <h3 class="text-hockey-black font-extrabold text-4xl mb-6">Get In Touch</h3>
                 <p class="w-[600px] mx-auto text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing
